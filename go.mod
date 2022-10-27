@@ -1,4 +1,4 @@
-module Aorm
+module github.com/Ayanokoji1020-miyano/Aorm
 
 go 1.17
 

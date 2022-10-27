@@ -1,8 +1,8 @@
 package session
 
 import (
-	"Aorm/clause"
 	"errors"
+	"github.com/Ayanokoji1020-miyano/Aorm/clause"
 	"reflect"
 )
 

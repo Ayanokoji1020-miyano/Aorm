@@ -1,6 +1,6 @@
 package session
 
-import "Aorm/log"
+import "github.com/Ayanokoji1020-miyano/Aorm/log"
 
 func (s *Session) Begin() (err error) {
 	log.Info("transaction begin")

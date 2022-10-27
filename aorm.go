@@ -1,11 +1,11 @@
 package Aorm
 
 import (
-	"Aorm/dialect"
-	"Aorm/log"
-	"Aorm/session"
 	"database/sql"
 	"fmt"
+	"github.com/Ayanokoji1020-miyano/Aorm/dialect"
+	"github.com/Ayanokoji1020-miyano/Aorm/log"
+	"github.com/Ayanokoji1020-miyano/Aorm/session"
 	"strings"
 )
 

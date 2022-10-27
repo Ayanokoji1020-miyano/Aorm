@@ -1,9 +1,9 @@
 package session
 
 import (
-	"Aorm/log"
-	"Aorm/schema"
 	"fmt"
+	"github.com/Ayanokoji1020-miyano/Aorm/log"
+	"github.com/Ayanokoji1020-miyano/Aorm/schema"
 	"reflect"
 	"strings"
 )

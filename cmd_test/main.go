@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Aorm"
 	"fmt"
+	"github.com/Ayanokoji1020-miyano/Aorm"
 	_ "github.com/go-sql-driver/mysql"
 )
 

@@ -1,7 +1,7 @@
 package dialect
 
 import (
-	"Aorm/log"
+	"github.com/Ayanokoji1020-miyano/Aorm/log"
 	"reflect"
 )
 

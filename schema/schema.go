@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"Aorm/dialect"
+	"github.com/Ayanokoji1020-miyano/Aorm/dialect"
 	"go/ast"
 	"reflect"
 )
