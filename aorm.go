@@ -3,10 +3,11 @@ package Aorm
 import (
 	"database/sql"
 	"fmt"
+	"strings"
+
 	"github.com/Ayanokoji1020-miyano/Aorm/dialect"
 	"github.com/Ayanokoji1020-miyano/Aorm/log"
 	"github.com/Ayanokoji1020-miyano/Aorm/session"
-	"strings"
 )
 
 // TODO 都与 scheme 相关
@@ -27,7 +28,6 @@ func NewEngine(driver, source string) (e *Engine,err error) {
 	if err = db.Ping(); err != nil {
 		log.Error(err)
 	}
-
 	dial := dialect.OpenDialect(driver,source)
 
 	e = &Engine{

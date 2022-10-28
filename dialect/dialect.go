@@ -1,8 +1,9 @@
 package dialect
 
 import (
-	"github.com/Ayanokoji1020-miyano/Aorm/log"
 	"reflect"
+
+	"github.com/Ayanokoji1020-miyano/Aorm/log"
 )
 
 // dialect(方言)

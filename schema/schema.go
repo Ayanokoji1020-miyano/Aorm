@@ -1,9 +1,10 @@
 package schema
 
 import (
-	"github.com/Ayanokoji1020-miyano/Aorm/dialect"
 	"go/ast"
 	"reflect"
+
+	"github.com/Ayanokoji1020-miyano/Aorm/dialect"
 )
 
 type Field struct {

@@ -2,11 +2,12 @@ package session
 
 import (
 	"database/sql"
+	"strings"
+
 	"github.com/Ayanokoji1020-miyano/Aorm/clause"
 	"github.com/Ayanokoji1020-miyano/Aorm/dialect"
 	"github.com/Ayanokoji1020-miyano/Aorm/log"
 	"github.com/Ayanokoji1020-miyano/Aorm/schema"
-	"strings"
 )
 
 // Session
